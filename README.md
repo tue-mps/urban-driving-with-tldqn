@@ -10,4 +10,8 @@ scenic=2.0.0
 carla=0.9.13
 ```
 ## Setup
+carla installation: https://carla.readthedocs.io/en/latest/start_quickstart/
+pytorch installation: https://pytorch.org/get-started/locally/
+scenic installation: https://scenic-lang.readthedocs.io/en/latest/install_notes.html
+
 
