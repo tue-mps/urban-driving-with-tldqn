@@ -16,7 +16,10 @@ scenic installation: https://scenic-lang.readthedocs.io/en/latest/install_notes.
 ## Getstart
 After installing the `scenic` package, place all files in this folder in the root of the scenic folder and replace the original files. You can run `scenic/examples/carla_scenic/Carla_Challenge/train_and_test.py` to train and test the agent.
 ### Trained models
-All trained models will be saved in `scenic/examples/carla_scenic/Carla_Challenge`, according to different objectives, there has three folder called `collision`, `path`, `speed`. Folder `scenic/trained_models` includes previously trained models, which can be directly used as demonstration. Put these trained models in `scenic/examples/carla_scenic/Carla_Challenge` to use them.
+All trained models will be saved in `scenic/examples/carla_scenic/Carla_Challenge`, according to different objectives, there has three folder called `collision`, `path`, `speed`. Folder `scenic/trained_models` includes previously trained models, which can be directly used as demonstration. Put these trained models in `scenic/examples/carla_scenic/Carla_Challenge` to use them. \
+There are two foloders in `trained_models`:
+* `TLQ-three_obj_version`: The trained models of TLDQN-based agent that considers three objectives (safety, speed, path-following)
+* `TLQ-two_obj_version`: The trained models of TLDQN-based agent that only considers two objectives (speed, path-following)
 ### Other files
 `RL-agent/DDQN.py`: pytorch program of DDQN model that used in TLDQN-based agent.\
 `simulators/carla/simulator.py`: The script that used to control the simulation environment.\
